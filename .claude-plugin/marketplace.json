@@ -1,0 +1,21 @@
+{
+  "name": "prom-legal-plugins",
+  "owner": {
+    "name": "Prom Legal Solution",
+    "email": "promsin@promlegalsolution.com"
+  },
+  "description": "ปลั๊กอินงานกฎหมายและงบประมาณ โดย Prom Legal Solution",
+  "plugins": [
+    {
+      "name": "thai-budget-scrutiny",
+      "source": "./",
+      "description": "ทีมเอเจนต์ตรวจสอบคำของบประมาณของหน่วยรับงบประมาณ สำหรับชั้นกรรมาธิการ — ตรวจ 4 มุม (วินัยการคลัง/ภาพรวม, ความซ้ำซ้อน, ความคุ้มค่า, ครุภัณฑ์-ราคากลาง & งบผูกพัน) แล้วสรุปเป็นบันทึกคำถามกรรมาธิการ",
+      "version": "0.1.0",
+      "author": {
+        "name": "Prom Legal Solution"
+      },
+      "license": "MIT",
+      "keywords": ["budget", "งบประมาณ", "กรรมาธิการ", "fiscal-scrutiny", "thai-government"]
+    }
+  ]
+}
