@@ -4,6 +4,23 @@
 
 ออกแบบให้ทำงานกับชุดเอกสารงบประมาณมาตรฐานของสำนักงบประมาณ (เอกสารงบประมาณ ฉบับที่ 1–7, ร่าง พ.ร.บ., งบประมาณโดยสังเขป, บันทึกวิเคราะห์ฯ) ใช้ได้ทุกปีงบประมาณ (ปัจจุบันตั้งค่ากรอบตัวเลขอ้างอิงไว้ที่ปีงบประมาณ พ.ศ. 2570)
 
+## ติดตั้ง / Sync (สำหรับคนอื่น)
+
+repo นี้เป็นทั้ง **ปลั๊กอิน** และ **marketplace catalog** ในตัว ผู้อื่นเพิ่ม/ซิงก์ได้ด้วยคำสั่ง (ใน Cowork หรือ Claude Code):
+
+```
+/plugin marketplace add promsin-source/thai-budget-scrutiny
+/plugin install thai-budget-scrutiny@prom-legal-plugins
+```
+
+อัปเดตเป็นเวอร์ชันล่าสุดภายหลัง:
+
+```
+/plugin marketplace update prom-legal-plugins
+```
+
+> ชื่อ marketplace คือ `prom-legal-plugins` (กำหนดใน `.claude-plugin/marketplace.json`) เวลาติดตั้งจึงใช้รูปแบบ `ชื่อปลั๊กอิน@prom-legal-plugins`
+
 ## ทีมเอเจนต์ (Agents)
 
 | เอเจนต์ | บทบาท |
